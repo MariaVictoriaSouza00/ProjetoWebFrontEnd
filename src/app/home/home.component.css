@@ -1,0 +1,61 @@
+
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .large-button {
+    font-size: 20px; 
+    padding: 20px 40px; 
+    min-width: 200px; 
+    height: 60px;
+    font-weight: bold;
+    margin-left: 10px; 
+  }
+  
+  .centered-button-text {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #033566; 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+  }
+  .center-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+
+.mat-toolbar {
+  height: 100px; 
+  background-color: rgba(3, 53, 102, 0.7);
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #033566; 
+}
+
+#home{
+  background-color: #033566; 
+
+}
+#acessar{
+  
+  background-color:  #86be4f;
+  color: white;
+}
+
+#cadastrar{
+  
+  background-color:  #65bce4;
+  color: white;
+}
+
+#home{
+ 
+  color: white;
+}

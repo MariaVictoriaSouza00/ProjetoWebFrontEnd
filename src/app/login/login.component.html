@@ -1,0 +1,22 @@
+<mat-toolbar>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <span id="home" routerLink="/home">HOME</span>
+    <span class="example-spacer"></span>
+    <div class="example-button-row">
+        <button id="cadastrar" color="primary" class="large-button" routerLink="/cadastro">Cadastrar</button>
+    </div>
+</mat-toolbar>
+<div class="center-button-container">
+    <form >
+        <label for="username">E-mail</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="username">Senha</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Entrar</button>
+    </form>
+</div>
+<app-footer></app-footer>

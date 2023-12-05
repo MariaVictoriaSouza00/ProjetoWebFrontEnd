@@ -1,0 +1,102 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.large-button {
+  font-size: 20px;
+  padding: 20px 40px;
+  min-width: 200px;
+  height: 60px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.centered-button-text {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #033566;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.center-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.mat-toolbar {
+  height: 100px;
+  background-color: rgba(3, 53, 102, 0.7);
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #033566;
+}
+
+#acessar {
+  background-color: #86be4f;
+  color: white;
+}
+
+#cadastrar {
+  background-color: #65bce4;
+  color: white;
+}
+
+#home {
+  color: white;
+}
+
+form {
+  width: 100%; /* Adjusted to take full width */
+  max-width: 600px; /* Set a maximum width for the form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: auto; /* Center the form */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .center-button-container {
+    height: auto; /* Adjusted height for smaller screens */
+  }
+  .example-button-row {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+  }
+}
